@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F361F6022B1D9E9A0022A2C8 /* Bunny.swift in Sources */ = {isa = PBXBuildFile; fileRef = F361F6012B1D9E9A0022A2C8 /* Bunny.swift */; };
 		F39191E02B1CB3B70041E379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39191DF2B1CB3B70041E379 /* AppDelegate.swift */; };
 		F39191E22B1CB3B70041E379 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39191E12B1CB3B70041E379 /* SceneDelegate.swift */; };
 		F39191E42B1CB3B70041E379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39191E32B1CB3B70041E379 /* ViewController.swift */; };
 		F39191E72B1CB3B70041E379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39191E52B1CB3B70041E379 /* Main.storyboard */; };
 		F39191E92B1CB3B80041E379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39191E82B1CB3B80041E379 /* Assets.xcassets */; };
 		F39191EC2B1CB3B80041E379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39191EA2B1CB3B80041E379 /* LaunchScreen.storyboard */; };
+		F39191F42B1CDDB00041E379 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39191F32B1CDDB00041E379 /* ViewController2.swift */; };
+		F39191F62B1D08C50041E379 /* BunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39191F52B1D08C50041E379 /* BunnyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F361F6012B1D9E9A0022A2C8 /* Bunny.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bunny.swift; sourceTree = "<group>"; };
 		F39191DC2B1CB3B70041E379 /* phw06-3-attString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "phw06-3-attString.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39191DF2B1CB3B70041E379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F39191E12B1CB3B70041E379 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		F39191E82B1CB3B80041E379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F39191EB2B1CB3B80041E379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F39191ED2B1CB3B80041E379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39191F32B1CDDB00041E379 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		F39191F52B1D08C50041E379 /* BunnyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				F39191DF2B1CB3B70041E379 /* AppDelegate.swift */,
 				F39191E12B1CB3B70041E379 /* SceneDelegate.swift */,
 				F39191E32B1CB3B70041E379 /* ViewController.swift */,
+				F39191F32B1CDDB00041E379 /* ViewController2.swift */,
 				F39191E52B1CB3B70041E379 /* Main.storyboard */,
 				F39191E82B1CB3B80041E379 /* Assets.xcassets */,
 				F39191EA2B1CB3B80041E379 /* LaunchScreen.storyboard */,
 				F39191ED2B1CB3B80041E379 /* Info.plist */,
+				F39191F52B1D08C50041E379 /* BunnyViewController.swift */,
+				F361F6012B1D9E9A0022A2C8 /* Bunny.swift */,
 			);
 			path = "phw06-3-attString";
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F361F6022B1D9E9A0022A2C8 /* Bunny.swift in Sources */,
+				F39191F62B1D08C50041E379 /* BunnyViewController.swift in Sources */,
 				F39191E42B1CB3B70041E379 /* ViewController.swift in Sources */,
+				F39191F42B1CDDB00041E379 /* ViewController2.swift in Sources */,
 				F39191E02B1CB3B70041E379 /* AppDelegate.swift in Sources */,
 				F39191E22B1CB3B70041E379 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,11 +307,13 @@
 				DEVELOPMENT_TEAM = 3266J6665X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "phw06-3-attString/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "免免愛台灣";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,11 +337,13 @@
 				DEVELOPMENT_TEAM = 3266J6665X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "phw06-3-attString/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "免免愛台灣";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
